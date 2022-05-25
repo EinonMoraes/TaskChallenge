@@ -1,42 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
 .App {
-  text-align: center;
+  width: 100%;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  background: white;
+  width: 64rem;
+  height: 31rem;
+
+  
+  
+  margin-top: 5rem;
+  margin-left: 32rem;
+  filter: drop-shadow(0px 24px 64px rgba(0, 0, 0, 0.555));
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Tasklist-input {
+ width: 64rem;
+ height: 4rem;
+ padding: 1rem 0rem;
+
+ margin-top: 20.5rem;
+ font-size: 2rem;
+ display: flex;
+ background: #8215ff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input {
+  width: 100%;
+  height: 100%;
+  background: black;
 }
 
-.App-link {
-  color: #61dafb;
-}
+textarea:focus, input:focus, select:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  
+} 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-button {
-  font-size: calc(10px + 2vmin);
+body {
+  background: rgba(0, 0, 0, 0.178);
 }
