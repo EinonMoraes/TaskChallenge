@@ -1,30 +1,19 @@
-import { useState } from 'react'
+import React from 'react';
+import Header from './components/Header/Header';
 import './App.css'
+import Item from './components/Item/Item';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App: React.FC = () => {
   return (
-    <section className="App">
-      <header className="header">
-        <h1>Today</h1>        
-
-        <div className="Tasklist-input">
-
-          
-         <input
-           type="text"
-           placeholder=" O que voçê quer fazer hoje?"
-         />
-
-         <button type="submit" data-testid="add-task-button"  />
-        
-      
-        
-        </div>
-      </header>
-    </section>
+    <div className='content' >
+      <Header />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+    </div>
   )
 }
 
-export default App
+export { App };

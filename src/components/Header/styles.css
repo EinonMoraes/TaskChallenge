@@ -1,0 +1,16 @@
+h1 {
+    color: #8d2ef9;
+    text-align: center;
+    margin: 1rem;
+}
+
+.header {
+    width: 100%;
+}
+  
+.headerLine {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+

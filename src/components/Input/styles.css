@@ -1,0 +1,27 @@
+input {
+    all: unset;
+    display: flex;
+    flex: 1;
+  
+    padding: 0.5rem;
+
+    align-items: flex-start;
+    text-align: start;
+    font-size: 20px;
+    background: #a255fa;
+    border-radius: 1rem;
+    border: 0.5px solid;
+    color: white;
+  }
+  
+  ::placeholder {
+    color: white;
+  }
+
+  textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: black;
+    outline: 2px;
+  
+    color: white;
+  } 

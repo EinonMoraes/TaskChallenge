@@ -1,0 +1,18 @@
+p {
+    
+    padding: 1rem;
+
+    margin-top: 1rem;
+
+
+    background-color: red;
+}
+
+.task-line {
+    display: flex;
+    width: 5rem;
+    
+    
+    align-items: center;
+    flex-direction: row;
+}
