@@ -1,14 +1,15 @@
 import React from 'react';
+import Button from '../button/Button';
 
 import './styles.css'
-import svg from '../../assets/icon-square.svg'
-import check from '../../assets/icon-check-square.svg'
 
 
 const Item: React.FC = () => {
   return (<div className='task-line'>
-      <img src={svg} />
+      <Button className='empty-button' svg='assets/icon-square.svg'/>
       <p>Teste</p> 
+      <Button  className='trash' svg='assets/trash-2.svg'/>
+
   </div> 
   );
 

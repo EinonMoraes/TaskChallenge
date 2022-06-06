@@ -1,14 +1,12 @@
 import React from 'react';
 import './styles.css'
-import check from '../../assets/check.svg'
 
-const Button: React.FC = () => {
+function Button(props) {
   return ( <div>
-    <button type="submit" data-testid="add-task-button">
-      <img src={check}  />
+    <button className={props.className} type="submit" data-testid="add-task-button">
+      <img src={props.svg}  />
     </button>
-</div>
-  )
+  </div>)
 }
 
 export default Button;

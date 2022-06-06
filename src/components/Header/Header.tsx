@@ -9,7 +9,7 @@ const Header: React.FC = () => {
       <h1>Today</h1>
       <div className='headerLine'>
         <Input/>
-        <Button/>
+        <Button svg='assets/icon-check-square.svg' className='button-green'/>
       </div>  
     </div>
   );

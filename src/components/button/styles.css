@@ -1,16 +1,25 @@
 button {
-    width: 2rem;
-    height: 2rem;
- 
-    border-radius: 8px;
-    border: 1px solid;
-    cursor: pointer;
-    margin-left: 1rem;
-    justify-content: center;
+  all: unset;
+  cursor: pointer;
+}
 
-    background-color: rgb(6, 246, 42);
-  }
+.button-green {
+  width: 2rem;
+  height: 2rem;
 
-  .svg {
-    color: white;
-  }
+  border-radius: 8px;
+  border: 0;
+
+  cursor: pointer;
+  margin-left: 1rem;
+  justify-content: center;
+  background-color: rgb(6, 246, 42);
+  color: white; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+
+}
+
+
