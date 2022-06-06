@@ -8,6 +8,8 @@ input {
     align-items: flex-start;
     text-align: start;
     font-size: 20px;
+    cursor: pointer;
+
     background: #a255fa;
     border-radius: 1rem;
     border: 0.5px solid;
@@ -20,8 +22,7 @@ input {
 
   textarea:focus, input:focus, select:focus {
     box-shadow: 0 0 0 0;
-    border: black;
-    outline: 2px;
+    outline: 0px;
   
     color: white;
   } 
